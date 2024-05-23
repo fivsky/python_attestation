@@ -5,8 +5,6 @@ import logging
 import logging.config
 import pytest
 
-#последовательность импортов верна? 
-
 
 logging.basicConfig(
     level=logging.DEBUG, 
@@ -14,8 +12,8 @@ logging.basicConfig(
     format = "%(asctime)s - %(module)s - %(levelname)s - %(funcName)s: %(lineno)d - %(message)s", 
     datefmt='%H:%M:%S',
     )
-# прошу проанализировать вышенвписанное логирование на предмет соотвествия требованиям. можно так писать? это допустимо или ошибка? жду коммент
 
+    
 class Student:
     
     python csv_file (r)
@@ -34,7 +32,6 @@ class Student:
     # print (namespace)
  
     print ("Привет, {}!".format (namespace.name) )
-
 
 
 #     нужно ли добавлять фикстуры? 
